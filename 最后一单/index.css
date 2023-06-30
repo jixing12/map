@@ -1,0 +1,655 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+body {
+  overflow-x: hidden;
+}
+.bck {
+  width: 1920px;
+  height: 1080px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.3);
+  background: url(img/bg.png) no-repeat center center;
+}
+.bck .header {
+  width: 1920px;
+  height: 100px;
+  background: url(img/head_bg.png) no-repeat center center;
+  font-size: 35px;
+  text-align: center;
+  line-height: 100px;
+  color: #6a8670;
+}
+.bck .mainbox {
+  display: flex;
+  justify-content: space-around;
+  width: 1920px;
+  height: 960px;
+  margin-top: 18px;
+}
+.bck .mainbox .column1 {
+  width: 500px;
+  height: 860px;
+}
+.bck .mainbox .column1 .panela {
+  position: relative;
+  width: 500px;
+  height: 300px;
+}
+.bck .mainbox .column1 .panela h4 {
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+}
+.bck .mainbox .column1 .panela .panel-footer {
+  width: 500px;
+  height: 240px;
+}
+.bck .mainbox .column1 .corner1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border-top: 2px solid white;
+  border-left: 2px solid white;
+}
+.bck .mainbox .column1 .corner2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 20px;
+  height: 20px;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+}
+.bck .mainbox .column1 .corner3 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+}
+.bck .mainbox .column1 .corner4 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 20px;
+  height: 20px;
+}
+.bck .mainbox .column1 .panelb {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+.bck .mainbox .column1 .panelb h4 {
+  font-size: 20px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+}
+.bck .mainbox .column1 .panelb .panel-footer {
+  width: 500px;
+  height: 250px;
+}
+.bck .mainbox .column1 .panelc {
+  position: relative;
+  width: 500px;
+  height: 272px;
+  margin-top: 10px;
+}
+.bck .mainbox .column1 .panelc h2 {
+  font-size: 20px;
+  text-align: center;
+  height: 45px;
+  line-height: 50px;
+  color: white;
+}
+.bck .mainbox .column1 .panelc ul {
+  display: flex;
+
+  height: 240px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bck .mainbox .column1 .panelc li {
+  display: flex;
+  width: 500px;
+  height: 34px;
+}
+.bck .mainbox .column1 .panelc li .first {
+  display: block;
+  width: 40px;
+  height: 34px;
+  background-color: #38e195;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 34px;
+  font-size: 22px;
+}
+.bck .mainbox .column1 .panelc li .second {
+  font-size: 20px;
+  color: white;
+  line-height: 34px;
+  margin-left: 10px;
+}
+.column2 {
+  width: 780px;
+  height: 860px;
+}
+.column2 .new {
+  display: flex;
+  width: 780px;
+  justify-content: space-around;
+  height: 60px;
+}
+.column2 .new .start {
+  position: relative;
+  width: 200px;
+  height: 60px;
+
+  border-radius: 8px;
+}
+.column2 .new .start h1 {
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  color: #3070cc;
+}
+.column2 .new .start p {
+  height: 20x;
+  text-align: center;
+  line-height: 20px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+.bck .mainbox .column2 .corner1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+}
+.bck .mainbox .column2 .corner2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 20px;
+  height: 20px;
+}
+.bck .mainbox .column2 .corner3 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+}
+.bck .mainbox .column2 .corner4 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.bck .mainbox .column2 .animation {
+  position: relative;
+  width: 780px;
+  height: 770px;
+
+  margin-top: 15px;
+  background: url(img/map.png) no-repeat center center;
+  opacity: 0.8;
+}
+.bck .mainbox .column2 .map {
+  width: 780px;
+  height: 770px;
+
+  margin-top: 15px;
+  opacity: 0.9;
+}
+.bck .mainbox .column2 .bg1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 518px;
+  height: 518px;
+
+  margin-left: -259px;
+  margin-top: -259px;
+  background: url(img/jt.png) no-repeat center center;
+  opacity: 0.8;
+  animation: rotate1 15s linear infinite;
+}
+@keyframes rotate1 {
+  from {
+    rotate: 360deg;
+  }
+  to {
+    rotate: 0deg;
+  }
+}
+.bck .mainbox .column2 .bg2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 640px;
+  height: 640px;
+  margin-top: -320px;
+  margin-left: -320px;
+
+  background: url(img/lbx.png) no-repeat center center;
+
+  animation: rotate2 15s linear infinite;
+}
+@keyframes rotate2 {
+  from {
+    rotate: 0deg;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+.bck .mainbox .column3 {
+  width: 400px;
+  height: 860px;
+}
+.bck .mainbox .column3 .time {
+  width: 400px;
+  height: 60px;
+  background: url(img/背景\(3\).png) no-repeat center top;
+  font-size: 25px;
+  text-align: center;
+  line-height: 60px;
+  color: white;
+}
+
+.bck .mainbox .column3 .area1 {
+  display: none;
+
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+
+  background: url(img/背景\(3\).png) no-repeat center top;
+}
+.bck .mainbox .column3 .area1 h4 {
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+}
+.bck .mainbox .column3 .area1 .panel {
+  width: 400px;
+  height: 350px;
+}
+body .bck .mainbox .column3 .active {
+  display: block;
+}
+
+.bck .mainbox .column3 .panelc {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  margin-top: 30px;
+
+  background-size: 400px;
+}
+.bck .mainbox .column3 .panelc .panel-footer {
+  width: 400px;
+  height: 250px;
+}
+.bck .mainbox .column3 .panelc h4 {
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+}
+.bck .mainbox .column3 .area2 {
+  display: none;
+
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+}
+.bck .mainbox .column3 .area2 h4 {
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+}
+.bck .mainbox .column3 .area2 .panel {
+  width: 400px;
+  height: 350px;
+}
+.bck .mainbox .column3 .area3 {
+  display: none;
+
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+}
+.bck .mainbox .column3 .area3 h4 {
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+}
+.bck .mainbox .column3 .area3 .panel {
+  width: 400px;
+  height: 350px;
+}
+.bck .mainbox .column3 .area4 {
+  display: none;
+
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+
+  background: url(img/背景\(3\).png) no-repeat center top;
+}
+.bck .mainbox .column3 .area4 h4 {
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+}
+.bck .mainbox .column3 .area4 .panel {
+  width: 400px;
+  height: 350px;
+}
+.bck .mainbox .column3 .area5 {
+  display: none;
+
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+
+  background: url(img/背景\(3\).png) no-repeat center top;
+}
+.bck .mainbox .column3 .area5 h4 {
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+}
+.bck .mainbox .column3 .area5 .panel {
+  width: 400px;
+  height: 350px;
+}
+.bck .mainbox .column3 .area6 {
+  display: none;
+
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+
+  background: url(img/背景\(3\).png) no-repeat center top;
+}
+.bck .mainbox .column3 .area6 h4 {
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+}
+.bck .mainbox .column3 .area6 .panel {
+  width: 400px;
+  height: 350px;
+}
+.bck .mainbox .column3 .area7 {
+  display: none;
+
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+
+  background: url(img/背景\(3\).png) no-repeat center top;
+}
+.bck .mainbox .column3 .area7 h4 {
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+}
+.bck .mainbox .column3 .area7 .panel {
+  width: 400px;
+  height: 350px;
+}
+.bck .mainbox .column3 .area8 {
+  display: none;
+
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+
+  background: url(img/背景\(3\).png) no-repeat center top;
+}
+.bck .mainbox .column3 .area8 h4 {
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+}
+.bck .mainbox .column3 .area8 .panel {
+  width: 400px;
+  height: 350px;
+}
+.bck .mainbox .column3 .area9 {
+  display: none;
+
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+
+  background: url(img/背景\(3\).png) no-repeat center top;
+}
+.bck .mainbox .column3 .area9 h4 {
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+}
+.bck .mainbox .column3 .area9 .panel {
+  width: 400px;
+  height: 350px;
+}
+.bck .mainbox .column3 .area10 {
+  display: none;
+
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+
+  background: url(img/背景\(3\).png) no-repeat center top;
+}
+.bck .mainbox .column3 .area10 h4 {
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+}
+.bck .mainbox .column3 .area10 .panel {
+  width: 400px;
+  height: 350px;
+}
+.bck .mainbox .column3 .area11 {
+  display: none;
+
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+
+  background: url(img/背景\(3\).png) no-repeat center top;
+}
+.bck .mainbox .column3 .area11 h4 {
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+}
+.bck .mainbox .column3 .area11 .panel {
+  width: 400px;
+  height: 350px;
+}
+.bck .mainbox .column3 .area12 {
+  display: none;
+
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+
+  background: url(img/背景\(3\).png) no-repeat center top;
+}
+.bck .mainbox .column3 .area12 h4 {
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+}
+.bck .mainbox .column3 .area12 .panel {
+  width: 400px;
+  height: 350px;
+}
+.bck .mainbox .column3 .area13 {
+  display: none;
+
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+
+  background: url(img/背景\(3\).png) no-repeat center top;
+}
+.bck .mainbox .column3 .area13 h4 {
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+}
+.bck .mainbox .column3 .area13 .panel {
+  width: 400px;
+  height: 350px;
+}
+.bck .mainbox .column3 .area14 {
+  display: none;
+
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+
+  background: url(img/背景\(3\).png) no-repeat center top;
+}
+.bck .mainbox .column3 .area14 h4 {
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+}
+.bck .mainbox .column3 .area14 .panel {
+  width: 400px;
+  height: 350px;
+}
+.bck .mainbox .column3 .area15 {
+  display: none;
+
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+
+  background: url(img/背景\(3\).png) no-repeat center top;
+}
+.bck .mainbox .column3 .area15 h4 {
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+}
+.bck .mainbox .column3 .area15 .panel {
+  width: 400px;
+  height: 350px;
+}
+.bck .mainbox .column3 .area16 {
+  display: none;
+
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+
+  background: url(img/背景\(3\).png) no-repeat center top;
+}
+.bck .mainbox .column3 .area16 h4 {
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+}
+.bck .mainbox .column3 .area16 .panel {
+  width: 400px;
+  height: 350px;
+}
+.bck .mainbox .column3 .area17 {
+  display: none;
+
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+
+  background: url(img/背景\(3\).png) no-repeat center top;
+}
+.bck .mainbox .column3 .area17 h4 {
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+}
+.bck .mainbox .column3 .area17 .panel {
+  width: 400px;
+  height: 350px;
+}
+.bck .mainbox .column3 .area18 {
+  display: none;
+
+  width: 400px;
+  height: 400px;
+  margin-top: 40px;
+
+  background: url(img/背景\(3\).png) no-repeat center top;
+}
+.bck .mainbox .column3 .area18 h4 {
+  font-size: 20px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+}
+.bck .mainbox .column3 .area18 .panel {
+  width: 400px;
+  height: 350px;
+}
